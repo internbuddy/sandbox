@@ -9,10 +9,10 @@ class Database{
     //public $conn;
  
     // get database connection
-    private $db_host = 'k3b3ta.c7lkgbzlct6d.ap-south-1.rds.amazonaws.com';
+    private $db_host = 'k3beta.c7lkgbzlct6d.ap-south-1.rds.amazonaws.com';
     private $db_user = 'root';
     private $db_password = 'maV01X615';
-    private $db_database = 'k3b3ta';
+    private $db_database = 'k3beta';
     private $db_options = array(
         PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
         PDO::MYSQL_ATTR_SSL_CA => '/var/tmp/rds-ca-2019-root.pem',
